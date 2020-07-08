@@ -222,6 +222,7 @@ def big_shoe_rebounds
       if size > max_size
         max_size = size
         rebound = key2[:rebounds]
+        return rebound
       end
       
     end
