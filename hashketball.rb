@@ -184,10 +184,11 @@ def player_numbers(team_name)
   #Build a method, `player_numbers`, that takes in an argument of a team name and
   #returns an `Array` of the jersey numbers for that team.
   
+  numbers = []
+  
   if game_hash[:home][:team_name] == team_name
     game_hash[:home][:players].each do |key1, value1|
-      binding.pry
-      key1[:number]
+     return numbers<< key1[:number]
       
     end
     
