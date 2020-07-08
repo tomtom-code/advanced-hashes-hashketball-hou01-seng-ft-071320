@@ -185,7 +185,7 @@ def player_numbers(team_name)
   #returns an `Array` of the jersey numbers for that team.
   
   if game_hash[:home][:team_name] == team_name
-     game_hash[:home][:player]
+     game_hash[:home][:player].map{|
   
   
   
