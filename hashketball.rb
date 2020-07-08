@@ -146,4 +146,5 @@ end
 
 def shoe_size(player_name)
   
-  game.each do ||
+  
+end
