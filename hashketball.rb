@@ -131,8 +131,10 @@ end
 
 def num_points_scored(player_name)
   
-  player_scored = 0
-  game_hash[:pl]
+  home_player_scored = 0
+  away_player_scored = 0
+  
+  if game_hash[:home][:players]
   #binding.pry
   
 end
