@@ -138,10 +138,10 @@ def num_points_scored(player_name)
       if key2[:player_name] == player_name
         player_scored = key2[:points]
       end
-      
     end
-  
   end
  player_scored
 end
 
+def shoe_size(player_name)
+  
