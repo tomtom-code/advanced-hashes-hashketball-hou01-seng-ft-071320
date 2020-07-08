@@ -217,7 +217,7 @@ def big_shoe_rebounds
   max_size = 0 
   rebound = 0 
   game_hash.each do |key1, value1|
-    value1[players].each do |key2, value2|
+    value1[:players].each do |key2, value2|
       binding.pry
     end
       
