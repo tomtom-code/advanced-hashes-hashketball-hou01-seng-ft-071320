@@ -176,7 +176,7 @@ def team_names
   names_array = []
   names_array.push(game_hash[:home][:team_name])
   names_array.push(game_hash[:away][:team_name])
-  return name_array
+  return names_array
   binding.pry
 
 
