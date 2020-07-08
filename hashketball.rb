@@ -180,12 +180,14 @@ end
 
 
 def player_numbers(team_name)
-  binding.pry
+  
   #Build a method, `player_numbers`, that takes in an argument of a team name and
   #returns an `Array` of the jersey numbers for that team.
   
   if game_hash[:home][:team_name] == team_name
-    game_hash[:home][:players].map {|players| 
+    game_hash[:home][:players].map {|player| player[:number]}
+    binding.pry
+  end
     
 
   
