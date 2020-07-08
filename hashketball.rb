@@ -186,7 +186,7 @@ def player_numbers(team_name)
   
   if game_hash[:home][:team_name] == team_name
     game_hash[:home][:players].each do |key1, value1|
-      key1[:number]
+      return key1[:number]
     else game_hash[:away][:player].each do |key2, value2|
       binding.pry
       game
