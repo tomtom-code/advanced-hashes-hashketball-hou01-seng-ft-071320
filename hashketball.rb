@@ -203,9 +203,9 @@ end
 def player_stats(player_name)
   
   game_hash.each do |key1, value1|
-    value1.each do |key2, value2|
-      if value2 = player_name
-        return key2
+    value1.each do |player|
+      
+      
       binding.pry
     end
     
