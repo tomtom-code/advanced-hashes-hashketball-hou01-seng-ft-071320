@@ -170,3 +170,5 @@ end
 
 
 def team_names()
+  #Build a method, `team_names`, that operates on the game `Hash` to return an
+  #`Array` of the team names.
