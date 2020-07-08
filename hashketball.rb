@@ -134,7 +134,7 @@ def num_points_scored(player_name)
   home_player_scored = 0
   away_player_scored = 0
   
-  game_hash.each do |key, value|
+  game_hash.each do |key1, value1|
     
   
 end
