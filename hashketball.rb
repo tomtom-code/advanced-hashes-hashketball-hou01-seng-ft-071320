@@ -188,8 +188,8 @@ def player_numbers(team_name)
     game_hash[:home][:players].each do |key1, value1|
       return key1[:number]
     end
-  else game_hash[:away][:player].each do |key2, value2|
-      binding.pry
+  else game_hash[:away][:players].each do |key2, value2|
+    binding.pry
       game
     end
   
