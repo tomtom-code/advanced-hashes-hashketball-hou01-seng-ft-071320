@@ -170,9 +170,7 @@ end
 
 
 def team_names
-  #Build a method, `team_names`, that operates on the game `Hash` to return an
-  #`Array` of the team names.
-  
+
   names_array = []
   names_array.push(game_hash[:home][:team_name])
   names_array.push(game_hash[:away][:team_name])
