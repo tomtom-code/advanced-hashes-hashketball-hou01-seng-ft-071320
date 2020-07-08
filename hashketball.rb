@@ -184,7 +184,8 @@ def player_numbers(team_name)
   #Build a method, `player_numbers`, that takes in an argument of a team name and
   #returns an `Array` of the jersey numbers for that team.
   
-  
+  if game_hash[:home][:team_name] == team_name
+    return game_hash[:home][]
   
   
   
