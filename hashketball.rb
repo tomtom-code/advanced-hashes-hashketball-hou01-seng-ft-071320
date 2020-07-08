@@ -204,6 +204,8 @@ def player_stats(player_name)
   
   game_hash.each do |key1, value1|
     value1[:players].each do |key2, value2|
+      if key2[:player_name] == player_name
+        return key2
       binding.pry
       
     end 
