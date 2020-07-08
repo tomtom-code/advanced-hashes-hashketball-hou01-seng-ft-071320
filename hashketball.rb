@@ -203,7 +203,7 @@ end
 def player_stats(player_name)
   
   game_hash.each do |key1, value1|
-    value1.each do |player|
+    value1[:player].each do |player|
       
       
       binding.pry
