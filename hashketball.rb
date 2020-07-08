@@ -158,7 +158,7 @@ end
 
 
 def team_colors(team_name)
-  
+  binding.pry
   
   
   
