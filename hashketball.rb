@@ -174,9 +174,10 @@ def team_names
   #`Array` of the team names.
   
   names_array = []
-  home_name = game_hash[:home][:team_name]
-  away_name = 
-
+  names_array.push(game_hash[:home][:team_name])
+  names_array.push(game_hash[:away][:team_name])
+  return name_array
+  binding.pry
 
 
 end
