@@ -161,7 +161,7 @@ def team_colors(team_name)
   color = []
   
   game_hash.each do |key1, value1|
-    value1.
+    value1[:team_name]
     binding.pry
   end
   
