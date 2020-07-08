@@ -203,6 +203,7 @@ end
 def player_stats(player_name)
   
   game_hash.each do |key1, value1|
+    if value1[][]
     binding.pry
   end
 end
