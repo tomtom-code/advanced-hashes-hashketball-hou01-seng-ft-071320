@@ -207,11 +207,9 @@ def player_stats(player_name)
       if key2[:player_name] == player_name
         return key2
       end
-      
-      
     end 
-  
   end
-      
-    
 end
+
+
+def big_shoe_rebounds(player_)
