@@ -189,19 +189,12 @@ def player_numbers(team_name)
   if game_hash[:home][:team_name] == team_name
     game_hash[:home][:players].map do |player|
       player[:number]
-      binding.pry
-     
       
+     
     end
   else
     game_hash[:away][:players].map do |player|
       player[:number]
 
-  
-      
-    
   end
-    
-
-  
 end
